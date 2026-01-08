@@ -4,4 +4,3 @@ altura = 20
 volume = comprimento * largura * altura
 
 print(str(volume) + " cm3")
-print(f"{volume} cm3")
