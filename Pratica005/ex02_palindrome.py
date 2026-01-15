@@ -5,7 +5,7 @@ Se o resultado é True, responda “Sim”, se o resultado for
 False, responda “Não” """
 
 def verificar_palindromo(frase):
-    frase = frase.lower().replace(" ", "")
+    frase = "".join(char for char in frase.lower() if char.isalnum())
     frase_invertida = frase[::-1]
     return frase == frase_invertida
 
